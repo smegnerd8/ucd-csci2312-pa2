@@ -11,6 +11,7 @@
 #include "ClusteringTests.h"
 #include "Point.h"
 #include "Cluster.h"
+#include <limits>
 
 using namespace Clustering;
 using namespace Testing;

@@ -5,7 +5,7 @@
 
 namespace Clustering {
 
-    typedef struct LNode *LNodePtr;
+    typedef struct LNode *LNodePtr; // lnode struct used with pntr 
 
     struct LNode {
 
@@ -17,8 +17,8 @@ namespace Clustering {
 
     class Cluster {
 
-        int __size;
-        LNodePtr __points;
+        int __size; // number of Points 
+        LNodePtr __points; // null pntr 
 
         void __del();
         void __cpy(LNodePtr pts);
